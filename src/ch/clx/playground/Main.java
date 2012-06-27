@@ -1,5 +1,7 @@
 package ch.clx.playground;
 
+import java.lang.*;
+
 /**
  * Created with IntelliJ IDEA.
  * User: azen
@@ -8,5 +10,9 @@ package ch.clx.playground;
  * To change this template use File | Settings | File Templates.
  */
 public class Main {
-
+       public static  void main(String[] args){
+           System.out.println("Hello World");
+           View view;
+           view = new View();
+       }
 }
