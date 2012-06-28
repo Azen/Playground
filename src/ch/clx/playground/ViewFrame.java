@@ -10,10 +10,10 @@ import java.awt.*;
  * Time: 14:28
  * To change this template use File | Settings | File Templates.
  */
-public class View extends JFrame{
+public class ViewFrame extends JFrame{
 
-    public View(){
-        this.setTitle("My Resizable Frame");
+    public ViewFrame(){
+        this.setTitle("My Resizable Frame rockzzz!");
         this.setSize(400, 500);
         this.setVisible(true);
         this.setBackground(Color.blue);

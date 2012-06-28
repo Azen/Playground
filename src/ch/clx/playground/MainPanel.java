@@ -19,7 +19,7 @@ import java.awt.event.ActionListener;
 
     private JButton submitButton = new JButton();
 
-       public MainPanel(final View view){
+       public MainPanel(final ViewFrame viewFrame){
            SpringLayout mySLayout = new SpringLayout();
            this.setLayout(mySLayout);
            this.setSize(400, 500);
@@ -58,7 +58,7 @@ import java.awt.event.ActionListener;
                        JOptionPane.showMessageDialog(null, "The frame can't be rezied to dimensions smaller then smaller then 290 x 210 Pixels, do to Display issues.");
                    }
 
-                   view.setSize(newWidth, newHeight);
+                   viewFrame.setSize(newWidth, newHeight);
                    }catch (Exception e1){}
                }
            });
